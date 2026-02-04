@@ -3,7 +3,7 @@ name = "sf-quant-labs"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "cvxpy>=1.7.2",
     "ipykernel>=6.30.1",
@@ -13,5 +13,6 @@ dependencies = [
     "polars>=1.32.3",
     "pyarrow>=21.0.0",
     "seaborn>=0.13.2",
+    "sf-backtester>=0.1.1",
     "sf-quant>=0.1.11",
 ]
